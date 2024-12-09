@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pokémon Laravel Management System
 
 Este proyecto es una aplicación Laravel para gestionar una base de datos de Pokémon. La aplicación permite a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en los registros de Pokémon.
@@ -91,3 +92,6 @@ Navega a `http://localhost:8000/pokemon` para ver la lista de Pokémon y acceder
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+=======
+# laravelPokeApp
+>>>>>>> 5215f95f94160389200e20f99e7099a4ecb4634e
