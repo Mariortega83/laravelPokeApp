@@ -1,97 +1,61 @@
-<<<<<<< HEAD
-# Pokémon Laravel Management System
+# PokeApp
 
-Este proyecto es una aplicación Laravel para gestionar una base de datos de Pokémon. La aplicación permite a los usuarios realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en los registros de Pokémon.
-
-## Funcionalidades
-
-### Listar Pokémon
-
-La aplicación muestra una lista de todos los Pokémon almacenados en la base de datos. Cada registro de Pokémon incluye los siguientes atributos:
-- **ID**: Identificador único del Pokémon.
-- **Nombre**: Nombre del Pokémon.
-- **Tipo**: Tipo del Pokémon (por ejemplo, Agua, Fuego, Planta, etc.).
-- **Ataque**: Valor de ataque del Pokémon.
-- **Defensa**: Valor de defensa del Pokémon.
-
-### Crear Pokémon
-
-Los usuarios pueden añadir nuevos Pokémon a la base de datos proporcionando la siguiente información:
-- **Nombre**: Nombre del Pokémon (requerido, único, entre 2 y 100 caracteres).
-- **Tipo**: Tipo del Pokémon (requerido, entre 2 y 50 caracteres).
-- **Ataque**: Valor de ataque del Pokémon (requerido, entero entre 0 y 999).
-- **Defensa**: Valor de defensa del Pokémon (requerido, entero entre 0 y 999).
-
-### Editar Pokémon
-
-Los usuarios pueden editar la información de un Pokémon existente. Los campos editables son:
-- **Nombre**
-- **Tipo**
-- **Ataque**
-- **Defensa**
-
-### Ver Detalles de un Pokémon
-
-Los usuarios pueden ver los detalles de un Pokémon específico, incluyendo todos sus atributos.
-
-### Eliminar Pokémon
-
-Los usuarios pueden eliminar un Pokémon de la base de datos. Se muestra una confirmación antes de proceder con la eliminación.
+Con esta App podrás insertar, consultar y eliminar pokemons en una base de datos
 
 ## Instalación
 
-1. Clona el repositorio.
-2. Instala las dependencias con Composer:
-    ```sh
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/tu-usuario/CRUD_PHPpokemon.git
+    ```
+
+2. Navega al directorio del proyecto:
+    ```bash
+    cd CRUD_PHPpokemon
+    ```
+
+3. Instala las dependencias de Composer:
+    ```bash
     composer install
     ```
-3. Configura tu archivo `.env` con los detalles de tu base de datos.
-4. Ejecuta las migraciones para crear las tablas necesarias:
-    ```sh
+
+4. Copia el archivo `.env.example` a `.env` y configura tu base de datos y otras variables de entorno:
+    ```bash
+    cp .env.example .env
+    ```
+
+5. Genera la clave de la aplicación:
+    ```bash
+    php artisan key:generate
+    ```
+
+6. Ejecuta las migraciones de la base de datos:
+    ```bash
     php artisan migrate
     ```
-5. Inicia el servidor de desarrollo:
-    ```sh
+
+7. Inicia el servidor de desarrollo:
+    ```bash
     php artisan serve
     ```
 
-## Imagenes
+## Diseño interfaz
+Aquí observamos el inicio
+![alt text](inicio.png)
 
-Esta es la interfaz de los Pokemons
+Aquí podemos encontrar la interfaz de la app donde veremos los pokemon listados y solo podemos editar o borrar si estamos logeados.
+![alt text](ver.png)
 
-![Interfaz Pokemon](/img/pokemonLaravel1.png)
+Aquí el formulario de edición.
+![alt text](edit.png)
 
-<hr></hr>
+Aquí el formulario para añadir
+![alt text](add.png)
 
-Aqui se visualizan los Pokemons
+Aquí podemos ver como elimina
+![alt text](delete.png)
 
-![Vista Pokemon](/img/vistaPokemonLaravel.png)
+Aquí observamos como visualizar los datos mediante el view
+![alt text](view.png)
 
-<hr></hr>
 
-Aqui se crean los Pokemons
-
-![Crear Pokemon](/img/crearPokemonLaravel.png)
-
-<hr></hr>
-
-Aqui edito los Pokemons
-
-![Editar Pokemon](/img/editarPokemonLaravel.png)
-
-<hr></hr>
-
-Aqui elimino los Pokemons
-
-![Eliminar Pokemon](/img/eliminoPokemonLaravel.png)
-
-## Uso
-
-Navega a `http://localhost:8000/pokemon` para ver la lista de Pokémon y acceder a las funcionalidades de gestión.
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-=======
-# laravelPokeApp
->>>>>>> 5215f95f94160389200e20f99e7099a4ecb4634e
