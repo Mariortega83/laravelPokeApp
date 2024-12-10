@@ -41,7 +41,7 @@ Con esta App podrás insertar, consultar y eliminar pokemons en una base de dato
 
 ## Diseño interfaz
 Aquí observamos el inicio
-![alt text](inicio.png)
+![alt text](main.png)
 
 Aquí podemos encontrar la interfaz de la app donde veremos los pokemon listados y solo podemos editar o borrar si estamos logeados.
 ![alt text](ver.png)
