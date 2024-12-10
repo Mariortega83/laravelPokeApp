@@ -6,12 +6,12 @@ Con esta App podrás insertar, consultar y eliminar pokemons en una base de dato
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/CRUD_PHPpokemon.git
+    git clone https://github.com/tu-usuario/laravelPokeApp.git
     ```
 
 2. Navega al directorio del proyecto:
     ```bash
-    cd CRUD_PHPpokemon
+    cd laravelPokeApp
     ```
 
 3. Instala las dependencias de Composer:
@@ -45,9 +45,6 @@ Aquí observamos el inicio
 
 Aquí podemos encontrar la interfaz de la app donde veremos los pokemon listados y solo podemos editar o borrar si estamos logeados.
 ![alt text](ver.png)
-
-Aquí el formulario de edición.
-![alt text](edit.png)
 
 Aquí el formulario para añadir
 ![alt text](add.png)
